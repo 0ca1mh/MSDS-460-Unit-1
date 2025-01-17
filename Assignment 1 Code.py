@@ -26,8 +26,6 @@ x4 = LpVariable('x4', lowBound=0)
 #Sausage patties
 x5 = LpVariable('x5', lowBound=0)
 
-#test
-
 #Objective function
 prob += 1.18 * x1 + 0.9 * x2 + 1.15 * x3 + 1.1 * x4 + 1.66 * x5, "Z"
 
